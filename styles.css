@@ -1,1 +1,8 @@
 /* This is a CSS comment. Put your CSS styling below this line */
+
+body {
+  background-image: url("images/bg.png");
+}
+footer {
+  text-align: center;
+}
