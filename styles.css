@@ -3,6 +3,64 @@
 body {
   background-image: url("images/bg.png");
 }
+main {
+  width: 800px;
+  margin: auto;
+  height: 750px;
+}
 footer {
   text-align: center;
+}
+img {
+  width: 200px;
+  height: auto;
+  float: left;
+}
+h1 {
+  background-image: url("images/virsraksti.jpg");
+  font-size: xxx-large;
+  color: #4000000;
+  margin: 0px;
+}
+h2 {
+  background-image: url("images/virsraksti2.jpg");
+  font-size: xx-large;
+  padding: 0px;
+  margin: 0px;
+  width: 800px;
+}
+p {
+  background-color: #FFFFFF;
+  font-size: large;
+  float: left;
+  width: 800px;
+  margin: 0px;
+}
+image-resize {
+  width: 100px;
+}
+a.button {
+  display: block;
+	height: 40px;
+	width: 200px;
+	color: #FFFFFF;
+	text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  background-image: url("/images/button.png");
+}
+
+a.button:hover
+{
+  display: block;
+	height: 40px;
+	width: 200px;
+	color: #FFFFFF;
+  text-align: center;
+  line-height: 40px;
+  background-image: url("/images/button_h.png");
+}
+
+.publication {
+  width: 800px;
 }
